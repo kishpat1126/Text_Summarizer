@@ -1,0 +1,17 @@
+{
+
+	"name": "Text Summarizer",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "This is a text summarizer for articles.",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"https://joanfihu-article-analysis-v1.p.mashape.com/link",
+		"https://en.wikipedia.org/"
+	]
+
+}
